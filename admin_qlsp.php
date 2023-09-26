@@ -10,7 +10,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Main CSS-->
-        <link rel="stylesheet" type="text/css" href="ADMIN/doc/css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         <!-- or -->
         <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -134,8 +134,8 @@
                                          <td> <?php echo $row['id']   ?></td>
                                          <td><?php  echo $row['tensanpham']   ?></td>
                                          <td style="width: 125px; height: 125px;">
-                                          <img src="<?php echo $row['img'] ?>" alt="" style="max-width: 100%; max-height: 100%;">
-                                          </td>
+                                                <img src="<?php echo $row['img'] ?>" alt="" style="max-width: 100%; max-height: 100%;">
+                                            </td>
                                           <td> <?php echo $row['soluong']   ?></td>
                                           <td><span class="badge bg-success">Còn hàng</span></td>
                                           <td><?php echo $row['giatien']   ?> đ</td>
@@ -508,19 +508,19 @@ MODAL
 -->
 
     <!-- Essential javascripts for application to work-->
-    <script src="js/jscrip/jquery-3.2.1.min.js"></script>
-    <script src="js/jscrip/popper.min.js"></script>
-    <script src="js/jscrip/bootstrap.min.js"></script>
+    <script src="js/js/jquery-3.2.1.min.js"></script>
+    <script src="js/js/popper.min.js"></script>
+    <script src="js/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="src/jquery.table2excel.js"></script>
-    <script src="js/jscrip/main.js"></script>
+    <script src="js/js/main.js"></script>
     <!-- The javascript plugin to display page loading on top-->
-    <script src="js/jscrip/plugins/pace.min.js"></script>
+    <script src="js/js/plugins/pace.min.js"></script>
     <!-- Page specific javascripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
     <!-- Data table plugin-->
-    <script type="text/javascript" src="js/jscrip/plugins/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="js/jscrip/plugins/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/js/plugins/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/js/plugins/dataTables.bootstrap.min.js"></script>
     <script type="text/javascript">
         $('#sampleTable').DataTable();
         //Thời Gian
