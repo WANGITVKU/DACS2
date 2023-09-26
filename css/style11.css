@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    margin-top: -3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.boxtop{ 
+    display: flex;
+
+    width:100%;
+    background-color: black;
+    height: 100px;
+}
+.boxtopleft{
+    float: left;
+    color: white;
+    line-height: 90px;
+  }
+.boxtopright a{
+    float: right;
+    color: rgb(252, 252, 252);
+    line-height: 90px;
+    margin-left: 20px;
+    text-decoration: none;
+   
+}
+.boxlogo{
+    float: left;
+    width:100%;
+    border-bottom: 1px #ef3434 solid;
+    height: 150px;
+    text-align:center ;
+    padding-top: 5  px;
+}
+.boxmenu{
+    float: left;
+    width: 1300px;
+   height: 70px;
+   background-color: rgb(255, 255, 255); 
+}
+.boxmenuright{
+    float: right;
+}
+
+.fa-solid{
+    float: right;
+    font-size: 30px;
+    height: 50px;
+}
+#menu{
+    
+    margin-left: -20%;
+}
+ul li{
+    list-style-type:none;
+    float: left;
+    left: 1%;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 12px;
+    margin-left: -1%;
+}
+#sale{
+    border: 1px solid #2f3640;
+    width: 900px;
+    height: 95px;
+    background-color: #e1e1e1;
+}
+#sale1{
+    border: 1px solid #2f3640;
+    width: 900px;
+    height: 95px;
+    background-color: red;
+}
+ul li ul{
+    display: none;
+    background-color: rgb(247, 247, 247);
+   
+}
+ul li a{
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+}
+ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+ul li ul li{
+    float: none;
+    border-bottom: 3px #ccc solid ;
+    border-left: 4px #ccc solid ;
+    border-right: 4px #ccc solid ;
+}
+ul li ul li:first-child{
+    border-top: 1px #ccc solid ;
+    padding-top: 1%;
+    text-align: center;
+}
+ul li ul li:hover{
+    background-color: aqua;
+}
+
+
+article{
+   
+    width: 100%;
+    min-height: 1300px;
+    margin-top: 30px;
+   margin-bottom: 45px;
+}
+.boxpro{
+    float: left;
+    width: 23%;  
+    margin-bottom: 25px;
+    margin-left: 2%;
+}
+.boxpro a{
+color: #333;
+text-decoration: none;
+
+}
+.boxpro a:hover{
+    color: rgb(64, 35, 136);
+    }
+
+.boximg img{
+    width: 270px;
+    min-height: 275px;
+    
+}
+
+.boxcenter{
+    width: 70%;
+    
+    margin: 0% auto;
+}
+
+.boxcente1{
+    width: 100%;
+    
+    margin: 0% auto;
+}
+footer{
+    float: left;
+    width: 100%;
+   min-height: 350px;
+    background-color: gray ;
+}
+
+.row{
+    float: left;
+    width: 100%;
+    border-top: 2px ridge red;
+    margin-bottom: 20px;
+
+}
+.boxcenter2{
+    width: 50%;
+    margin: 0 auto;
+}
+.boxfooter1{
+    width: 19%;
+    float: left;
+    margin-left: 2%;
+}
+.boxfooter2{
+    width: 25%;
+    float: left;
+   
+
+}
+.boxfooter3{
+    width: 50%;
+    float: left;
+}
+.textcenter{
+  text-align: center;  
+ 
+}
+.k{
+color: aliceblue;
+border-top: 2px ridge red;
+
+
+}
+.h{
+    margin-bottom: 3%;
+}
+footer a{
+    text-decoration: none;
+    color: beige;
+}
+footer a:hover {
+    color: blue;
+}
+
+ #so{
+    text-align: center;
+ }  
+ .chu{
+    text-align: center;
+ } 
+ .khung{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2f3640; background-color: red;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 16.5%;
+ }      
+.h1{
+    text-align: center;
+    font-size: 15px;
+    justify-content: center;
+    margin-top: 10px;
+    color: antiquewhite;
+}
+.khung8{
+    height: 75px;
+    width: 50px;
+    border: 1px solid #2f3640;
+    position: absolute;
+    display: none;
+    background-color: aqua;
+}
+.khung9{
+    height: 75px;
+    width: 50px;
+    border: 1px solid #2f3640;
+    position: absolute;
+    margin-left: 10%;
+}
+.dssp{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media  (max-width: 768px) {
+    .boxmenu{
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+    }
+}
+    
+
