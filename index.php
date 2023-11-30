@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="top-logo">
-                    <img src="img/logoBR.png" alt="" style="height: 120px;width: 150px; margin-top: -20px;">
+                    <img src="img/logoBR.png" alt="" style="height: 120px;width: 170px; margin-top: -20px; margin-left: -50px;">
                 </div>
                 <div class="top-menu-items">
                     <ul>
@@ -65,31 +65,7 @@
     </section>
     <!-- -----------------------------------slider----------------------- -->
     <!-- -------------------------Footer -->
-    <section class="footer">
-        <div class="footer-container">
-            <p>Tải ứng dụng BreakRules</p>
-            <div class="app-google">
-                <a href=""><img src="img/appstore.jpg" alt=""></a>
-                <a href=""> <img src="img/googleplay.jpg" alt=""></a>
-            </div>
-            <p>Nhận bản tin BreakRules</p>
-            <div class="input-email">
-                <input type="text" placeholder="Nhập email của bạn">
-                <i class="fas fa-arrow-left"></i>
-            </div>
-            <div class="footer-items">
-                <li><a href=""><img src="img/dathongbao.png" alt=""></a></li>
-                <li><a href="">Liên hệ</a></li>
-                <li><a href="">Tuyển dụng</a></li>
-                <li><a href="">Giới thiệu</a></li>
-                <li><a href=""><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-instagram"></i></a></li>
-            </div>
-            
-            <div class="footer-bottom">
-                ©BreakRules  rights reserved
-            </div>
-        </div>
-    </section>
+    <?php include "footer.php" ?>
 
 
 <script src="js/script.js"></script>

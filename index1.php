@@ -87,7 +87,7 @@
                 <p>'.$product['name'].'</p>
                 <p>Giá : <span>'.$product['price'].'</span> </p>
                 <input type="hidden" name="index" value="'.$index.'">
-                <input type="hidden" name="id" value="'.$product['id'].'">
+                <input type="hidden" name="id_sanpham" value="'.$product['id_san'].'">
                 <input type="submit" name="dathang"  id= "input1" value="Đặt hàng"  alt="" style ="">
                 </div>
                 </div>

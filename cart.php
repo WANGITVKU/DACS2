@@ -94,6 +94,7 @@
          $_SESSION['cart'][$index]['quantity']-=1;
        }
        header("Location: cart.php");
+      
 
     }
     if(isset($_GET['decrease'])){
